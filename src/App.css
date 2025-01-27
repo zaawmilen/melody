@@ -1,0 +1,173 @@
+/* App.css */
+
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #84df6d;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2 {
+  color: #140303;
+  text-align: center;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+  margin-top: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #5282b4;
+  color: rgb(47, 15, 228);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #b0b300;
+}
+
+/* Header Styles */
+header {
+  background-color: #007BFF;
+  padding: 20px;
+  color: white;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.8em;
+}
+
+/* Navigation Styles */
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 10px;
+}
+
+nav ul li {
+  font-size: 1.2em;
+}
+
+nav ul li a {
+  color: rgb(88, 9, 235);
+  text-decoration: none;
+  padding: 10px;
+  transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: #d4d66b;
+}
+/* Contact Us Styles */
+.contact-us {
+  background-color: #d3dce2;
+  padding: 20px;
+  margin-top: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(245, 12, 12, 0.76);
+  text-align: center;
+}
+
+.contact-us h3 {
+  color: #007BFF;
+  font-size: 1.5em;
+  margin-bottom: 15px;
+}
+
+.contact-us p {
+  font-size: 1.1em;
+  color: #22187e;
+}
+
+.contact-info {
+  margin-top: 20px;
+}
+
+.contact-info p {
+  margin: 5px 0;
+  font-size: 1.1em;
+}
+
+/* Course Cards & Content Styles */
+.course-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.course-item {
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 15px 0;
+  width: 90%;
+  max-width: 600px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+/* Add this to your CSS file or global styles */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.course-item:hover {
+  box-shadow: 0 6px 12px rgba(212, 8, 8, 0.2);
+}
+
+.course-item h3 {
+  color: #007BFF;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.course-item p {
+  color: #555;
+  line-height: 1.5;
+  font-size: 1.1em;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #5d7262;
+  padding: 10px;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
