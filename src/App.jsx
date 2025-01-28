@@ -6,7 +6,7 @@ import EnglishCourses from './pages/EnglishCourses';
 import ComputerCourses from './pages/ComputerCourses';
 import ContactUs from './pages/ContactUs';
 import Login from './pages/Login';
-import MyCourses from './pages/MyCourses';
+import Mycourses from './pages/Mycourses';
 
 function App() {
   return (
@@ -29,7 +29,7 @@ function App() {
             <Route path="/courses/computer" element={<ComputerCourses />} />
             <Route path="/contact" element={<ContactUs />} />
             <Route path="/login" element={<Login />} />
-            <Route path="/my-courses" element={<MyCourses />} />
+            <Route path="/my-courses" element={<Mycourses />} />
           </Routes>
         </main>
       </div>
